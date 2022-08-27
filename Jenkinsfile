@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages{
-        stage('Fetch code') {
+        stage('New code') {
           steps{
               git branch: 'vp-rem', url:'https://github.com/devopshydclub/vprofile-repo.git'
           }  
